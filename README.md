@@ -21,7 +21,7 @@ tickers = ['MSFT', 'GOOGL', 'AAPL', 'META']
 res_dict = list2dict(tickers) # {'MSFT': 277.39, 'GOOGL': 114.29, 'AAPL': 168.0, 'META': 163.1} 
 ```
 
-#### `list2file(tickers_list, save_as_name)`
+#### `list2file(tickers_list, save_as)`
 Takes a list of tickers as strings. Writes ticker-price pairs to the file, separated by a space.
 You can pass a name of an output file as a second argument. If a second argument is omitted, the output file will be named result.txt
 ```python
@@ -38,7 +38,7 @@ path_to_file = '/Users/drewk/PycharmProjects/yahoo-scrapper/tickers.txt'
 res_dict = file2dict(path_to_file) # {'MSFT': 277.39, 'GOOGL': 114.29, 'AAPL': 168.0, 'META': 163.1} 
 ```
 
-#### `file2file(path_to_file, save_as_name)`
+#### `file2file(path_to_file, save_as)`
 Takes a path to the file with tikers separated in any way. Writes ticker-price pairs to the file, separated by a space.
 You can pass a name of an output file as a second argument. If a second argument is omitted, the output file will be named result.txt
 ```python
