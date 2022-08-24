@@ -27,7 +27,7 @@ You can pass a name of an output file as a second argument. If a second argument
 ```python
 from stockprices import *
 tickers = ['MSFT', 'GOOGL', 'AAPL', 'META']
-list2file(tickers, 'save_file_name.txt') # wirted stock prices to the file named save_file_name.txt
+list2file(tickers, 'save_file_name.txt') # writes stock prices to the file named save_file_name.txt
 ```
 
 #### `file2dict`
@@ -44,6 +44,5 @@ You can pass a name of an output file as a second argument. If a second argument
 ```python
 from stockprices import *
 path_to_file = '/Users/drewk/PycharmProjects/yahoo-scrapper/tickers.txt'
-# second argument can be ommited — output file will be named 'result.txt'
-res_dict = file2file(path_to_file, 'output_file_name.txt') # saves stock prices in file named save_file_name
+res_dict = file2file(path_to_file, 'output_file_name.txt') # writes stock prices in the file named save_file_name.txt
 ```
