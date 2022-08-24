@@ -13,14 +13,14 @@ pip install requests lxml
 
 You can send tickers either as a list of strings or as a file with tickers separated in any way.
 
-### From list to dict — list2dict
+### `list2dict`
 ```python
 from stockprices import *
 tickers = ['MSFT', 'GOOGL', 'AAPL', 'META']
 res_dict = list2dict(tickers) # {'MSFT': 277.39, 'GOOGL': 114.29, 'AAPL': 168.0, 'META': 163.1} 
 ```
 
-### From list to file — list2file
+### `list2file`
 ```python
 from stockprices import *
 tickers = ['MSFT', 'GOOGL', 'AAPL', 'META']
@@ -28,14 +28,14 @@ tickers = ['MSFT', 'GOOGL', 'AAPL', 'META']
 list2file(tickers, 'save_file_name.txt') # saves stock prices in file named save_file_name
 ```
 
-### From file to dict — file2dict
+### `file2dict`
 ```python
 from stockprices import *
 path_to_file = '/Users/drewk/PycharmProjects/yahoo-scrapper/tickers.txt'
 res_dict = file2dict(path_to_file, 'output_file_name.txt') # {'MSFT': 277.39, 'GOOGL': 114.29, 'AAPL': 168.0, 'META': 163.1} 
 ```
 
-### From file to file — file2file
+### `file2file`
 ```python
 from stockprices import *
 path_to_file = '/Users/drewk/PycharmProjects/yahoo-scrapper/tickers.txt'
