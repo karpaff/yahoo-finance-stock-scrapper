@@ -3,7 +3,7 @@
 I'm learning threading and web scrapping using Python, so I decided to create a simple modeul which wich helps scrapping Yahoo Finance stock prices. It's just a tranining project, but I believe it could be useful for somebody. 
 
 ## Requirments
-Script requires requests and lxml installed. 
+Module requires `requests` and `lxml` installed. 
 
 ```
 pip install requests lxml
