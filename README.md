@@ -14,7 +14,7 @@ pip install requests lxml
 You can send tickers either as a list of strings or as a file with tickers separated in any way.
 
 ### From list to dict — list2dict
-```
+```python
 from stockprices import *
 tickers = ['MSFT', 'GOOGL', 'AAPL', 'META']
 res_dict = list2dict(tickers) # {'MSFT': 277.39, 'GOOGL': 114.29, 'AAPL': 168.0, 'META': 163.1} 
