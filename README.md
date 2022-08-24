@@ -1,4 +1,4 @@
-# Scrapping Yahoo Finance stock prices funcs using threading
+# Module for Yahoo Finance stock prices scrapping
 
 I'm learning threading and web scrapping using Python, so I decided to create a simple modeul which wich helps scrapping Yahoo Finance stock prices. It's just a tranining project, but I believe it could be useful for somebody. 
 
